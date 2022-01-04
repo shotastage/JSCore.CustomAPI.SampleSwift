@@ -52,6 +52,7 @@
 		25B415A62784159800304754 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		25B415A82784159800304754 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		25B415BE278415BF00304754 /* JSNApiSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSNApiSample.swift; sourceTree = "<group>"; };
+		25B415C327844B2800304754 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +101,7 @@
 		25B415812784159700304754 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				25B415822784159700304754 /* JSNewAPISampleApp.swift */,
+				25B415C127844AF400304754 /* Examples */,
 				25B415832784159700304754 /* ContentView.swift */,
 				25B415842784159800304754 /* Assets.xcassets */,
 				25B415BE278415BF00304754 /* JSNApiSample.swift */,
@@ -143,6 +144,23 @@
 				25B415A82784159800304754 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		25B415C127844AF400304754 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				25B415C227844B1500304754 /* JSExecution */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		25B415C227844B1500304754 /* JSExecution */ = {
+			isa = PBXGroup;
+			children = (
+				25B415822784159700304754 /* JSNewAPISampleApp.swift */,
+				25B415C327844B2800304754 /* README.md */,
+			);
+			path = JSExecution;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
